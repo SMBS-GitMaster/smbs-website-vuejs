@@ -42,16 +42,16 @@
   }
 
   &--link {
-    color: $black;
+    color: $text-dark;
     text-transform: uppercase;
 
     &:hover {
-      color: $black;
+      color: $text-dark;
     }
   }
 
   &--button {
-    background-color: $orange;
+    background-color: $bg-secondary;
     border-radius: 10px;
     color: $white;
     font-weight: 700;
