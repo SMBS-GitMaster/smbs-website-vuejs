@@ -1,5 +1,8 @@
+<script>
+import "semantic-ui-css/semantic.css";
+</script>
 <template>
-  <div>
+  <main>
     <h1>Welcome to the homepage</h1>
-  </div>
+  </main>
 </template>
