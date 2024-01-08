@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1536px) {
+  .ui.container {
+    width: 1400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .ui.grid.container {
+    width: calc(1400px + 2rem) !important;
+  }
+
+  .ui.relaxed.grid.container {
+    width: calc(1400px + 3rem) !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: calc(1400px + 5rem) !important;
+  }
+}
