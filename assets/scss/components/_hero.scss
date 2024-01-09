@@ -1,0 +1,66 @@
+.hero {
+  background: $bg-linear-gradient;
+  font-family: $font-primary;
+
+  &__wrapper {
+    padding: 70px 0;
+
+    @include media-breakpoint-down(lg) {
+      padding: 75px 0;
+    }
+  }
+
+  &__info {
+    color: $text-light;
+  }
+
+  &__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+    max-width: 690px;
+
+    @include media-breakpoint-down(lg) {
+      max-width: 90%;
+      margin: 0 auto 40px;
+      text-align: center;
+    }
+  }
+
+  &__subtitle {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    @include media-breakpoint-down(lg) {
+      text-align: center;
+    }
+  }
+
+  &__description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+    max-width: 730px;
+
+    @include media-breakpoint-down(lg) {
+      text-align: justify;
+      max-width: 684px;
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__footer {
+    align-items: center;
+    display: flex;
+    gap: 70px;
+
+    @include media-breakpoint-down(lg) {
+      flex-direction: column-reverse;
+    }
+  }
+}
