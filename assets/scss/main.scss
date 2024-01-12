@@ -3,6 +3,13 @@
 //Base
 @import "./base/fonts";
 @import "./base/variables";
+@import "./base/mixins";
+@import "./base/placeholders";
 
 //Components
+@import "./components/segment";
+
+//Sections
 @import "./components/header";
+@import "./components/cta";
+@import "./components/services";

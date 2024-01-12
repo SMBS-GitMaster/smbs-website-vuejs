@@ -24,3 +24,12 @@ $bg-primary: $blue;
 $bg-primary-subtle: $gray;
 $bg-secondary: $orange;
 $bg-light: $light-gray;
+
+//breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 991px,
+  xl: 1200px,
+);

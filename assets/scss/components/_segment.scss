@@ -1,0 +1,74 @@
+.segment {
+  margin-bottom: 100px;
+}
+
+.segment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  @include media-breakpoint-down(lg) {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__content {
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__title {
+    @extend %sectionTitle;
+  }
+
+  &__subtitle {
+    @extend %subtitle;
+    margin-bottom: 40px;
+  }
+
+  &__description {
+    @extend %description;
+  }
+
+  &__image {
+    max-width: 345px;
+    width: 100%;
+
+    @include media-breakpoint-down(xl) {
+      height: 90%;
+    }
+  }
+}
+
+.segment-card {
+  text-align: center;
+
+  @include media-breakpoint-down(xl) {
+    padding: 0 22px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__image {
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    @extend %subtitle;
+    margin: 0 0 24px;
+  }
+
+  &__description {
+    @extend %description;
+    margin-bottom: 24px;
+    text-align: justify;
+  }
+}
