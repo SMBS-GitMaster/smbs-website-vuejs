@@ -2,11 +2,13 @@
 import "semantic-ui-css/semantic.css";
 import "assets/scss/main.scss";
 import services from "~/data/services.json";
+import clientImages from "~/data/clients.json";
 
 export default {
   data() {
     return {
       services,
+      clientImages,
     };
   },
 };
@@ -33,6 +35,18 @@ export default {
           columnWide="eight wide computer sixteen wide tablet"
         />
       </div>
+    </Segment>
+
+    <Segment title="Clients" class="clients">
+      <ul class="clients-list">
+        <li class="clients-list__item" v-for="clientImage in clientImages">
+          <NuxtImg
+            class="clients-list__image"
+            :src="clientImage.src"
+            :alt="clientImage.alt"
+          />
+        </li>
+      </ul>
     </Segment>
   </main>
 </template>
