@@ -1,0 +1,30 @@
+.cta {
+  background-color: $bg-secondary;
+  border-radius: 10px;
+  color: $text-light;
+  font-family: $font-primary;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  padding: 12px 54px;
+
+  &:hover{
+    color: $text-light;
+  }
+
+  &--type {
+    &-small {
+      font-size: 16px;
+      letter-spacing: 1.4px;
+      line-height: 24px;
+    }
+
+    &-outlined{
+      background: transparent;
+      border: 1px solid $bg-light;
+      font-size: 15px;
+      line-height: normal;
+      padding: 8px 26px;
+    }
+  }
+}
