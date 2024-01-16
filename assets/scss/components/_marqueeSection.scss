@@ -1,0 +1,14 @@
+.marqueeSection {
+
+  &__container{
+    margin-bottom: 100px;
+  }
+  &__title {
+    @extend %sectionTitle;
+  }
+
+  &__image{
+    height: 55px;
+    margin: 0 27.5px;
+  }
+}

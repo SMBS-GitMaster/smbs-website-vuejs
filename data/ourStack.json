@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "src": "/c#.png",
+        "alt": "C# logo"
+    },
+    {
+        "id": 2,
+        "src": "/docker.png",
+        "alt": "Docker logo"
+    },
+    {
+        "id": 3,
+        "src": "/js.png",
+        "alt": "Javascript logo"
+    },
+    {
+        "id": 4,
+        "src": "/java.png",
+        "alt": "Java logo"
+    },
+    {
+        "id": 5,
+        "src": "/angular.png",
+        "alt": "Angular logo"
+    },
+    {
+        "id": 6,
+        "src": "/php.png",
+        "alt": "PHP logo"
+    },
+    {
+        "id": 7,
+        "src": "/python.png",
+        "alt": "Python logo"
+    },
+    {
+        "id": 8,
+        "src": "/reactjs.png",
+        "alt": "React logo"
+    },
+    {
+        "id": 9,
+        "src": "/nodejs.png",
+        "alt": "NodeJS logo"
+    }
+]

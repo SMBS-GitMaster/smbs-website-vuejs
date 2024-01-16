@@ -4,8 +4,11 @@
 @import "./base/fonts";
 @import "./base/variables";
 @import "./base/mixins";
+@import "./base/placeholders";
 
 //Components
+@import "./components/header";
+@import "./components/marqueeSection";
 @import "./components/cta";
 @import "./components/devCard";
 
