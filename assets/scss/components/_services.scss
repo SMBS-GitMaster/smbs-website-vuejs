@@ -10,7 +10,7 @@
     max-width: 596px;
   }
 
-  & .segmentCard__description {
+  & .segment-card__description {
     height: 180px;
 
     @include media-breakpoint-down(xl) {
